@@ -2,4 +2,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
+
+#Set the value to your entry url
+
 RewriteRule ^ index.html [L]
